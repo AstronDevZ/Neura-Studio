@@ -1,0 +1,119 @@
+/* Importa a fonte Press Start 2P */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* Reset básico para remover margens e paddings padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais do corpo */
+body {
+    background-color: #000; /* Preto */
+    color: #fff; /* Branco */
+    font-family: 'Press Start 2P', cursive;
+    line-height: 1.6;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.8rem;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #f0f0f0;
+}
+
+/* Seções */
+section {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+}
+
+.projeto {
+    margin-bottom: 20px;
+}
+
+.projeto h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.projeto p {
+    font-size: 0.8rem;
+}
+
+/* Formulário de contato */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-size: 0.8rem;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.7rem;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    font-family: 'Press Start 2P', cursive;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 0.8rem;
+}
+
+button:hover {
+    background-color: #f0f0f0;
+    color: #000;
+}
+
+/* Rodapé */
+footer {
+    background-color: #111;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.6rem;
+}
